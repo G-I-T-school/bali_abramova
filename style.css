@@ -1,0 +1,146 @@
+@font-face {
+	font-family: Museo;
+	src: url(.fonts/MuseoSansCyrl300.ttf);
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: Museo;
+	src: url(.fonts/MuseoSansCyrl500.otf);
+	font-weight: bold;
+}
+
+.wrap {
+	max-width: 1920px;
+	min-width: 375px;
+	height: 100vh;
+	margin: 0 auto;
+	background: url('./images/background.jpg') no-repeat;
+	background-size: cover;
+	font-family: 'MuseoModerno', cursive;
+	font-style: normal;
+
+}
+.HEADER {
+	display: flex;
+	width: 90%;
+	height: 200px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+}
+
+.logo-wrar{
+	flex: 1;
+	display: flex;
+	justify-content: center;
+}
+
+.stumb {
+	flex: 3;
+}
+
+.menu {
+	flex: 2;
+	display: flex;
+	justify-content: space-around;
+}
+
+.menu__item {
+	color: #fff;
+	text-decoration: none;
+	font-size: 22px;
+
+}
+.info__wrap{
+position: absolute;
+width: 549.58px;
+height: 372.66px;
+left: 10.4%;
+top: 15.26%;
+display: flex;
+}
+
+.info__bali {
+position: absolute;
+font-family: 'PT Serif', serif;
+font-style: normal;
+font-weight: normal;
+font-size: 280px;
+line-height: 371px;
+display: flex;
+align-items: center;
+color: #F8EEE4;
+
+opacity: 0.4;
+}
+
+.info__indonesia {
+position: sticky;
+font-family: 'PT Serif', serif;
+font-style: normal;
+font-weight: normal;
+font-size: 98px;
+line-height: 130px;
+display: flex;
+align-items: flex-end;
+color: #F8EEE4;
+}
+
+.info__text {
+position: absolute;
+left: 11.49%;
+right: 59.82%;
+top: 64.55%;
+bottom: 34.38%;
+
+font-family: 'MuseoModerno', cursive;
+font-size: 18px;
+line-height: 26px;
+
+color: #F8EEE4;
+}
+
+.main__botton {
+font-family: 'MuseoModerno', cursive;
+font-size: 22px;
+line-height: 26px;
+
+color: #FFFFFF;
+
+border-radius: 48px;
+position: absolute;
+width: 293.76px;
+height: 61.88px;
+left: 11.49%;
+top: 82%;
+
+background: #D4BEA3;
+border-radius: 48px;
+}
+
+.image-wrap {
+position: absolute;
+width: 874px;
+height: 397px;
+left: 50%;
+top: 40%;
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+}
+
+.image-wrap__first {
+border-radius: 5px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.image-wrap__second {
+border-radius: 5px;
+transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.image-wrap__three {
+border-radius: 5px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
